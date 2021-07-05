@@ -1008,6 +1008,7 @@ a {
 
     .post-preview {
         margin-bottom: 15px;
+        width: 100%;
     }
 
     .shop {
@@ -1151,6 +1152,10 @@ a {
         width: 330px;
         margin: auto;
         padding-top: 20px;
+    }
+
+    .post-preview {
+        width: 100%;
     }
 
     .sidebar {
