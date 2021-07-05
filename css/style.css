@@ -424,14 +424,14 @@ a {
     position: relative;
     margin: 0 auto;
 }
-  
+
 .search-description {
     display: none;
 }
   
 .field {
     position: relative;
-    width: 220px;
+    width: 100%;
     padding: 17px;
     background-color: #f4f7f6;
     border: none;
@@ -683,7 +683,6 @@ a {
 .icons-container {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #f4f7f6;
 }
   
 .icons-list {
@@ -1067,12 +1066,12 @@ a {
         font-size: 26px;
         margin-top: 40px;
     }
+
     .menu-button {
         display: inline-block;
         width: 1.4em;
         height: 1em;
         border: none;
-        /* padding: 0; */
         background-color: transparent;
         font-size: 25px;
         position: relative;
