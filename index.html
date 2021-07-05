@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +9,12 @@
 </head>
 <body>
   <header class="header">
-    <div class="banner">
-      <a href="/">
-        <img src="svg/noemi-logo.svg" 
-             class="banner-logo" 
-             alt="Logotype Noemi">
-      </a>
+    <div class="header-top">
+      <div class="header-logo">
+        <a href="/">
+          <img src="svg/noemi-logo.svg" class="header-img" alt="Logotype Noemi">
+        </a>
+      </div> 
       <nav class="menu">
         <button class="menu-button">
           <span class="menu-button-label">Открыть меню</span>
@@ -51,71 +50,63 @@
       <a class="trends-link" href="#">Сейчас в тренде</a>
     </h2>
     <div class="trends-container">
-      <article class="trends">
-        <div class="trend trend-first">
-          <div class="trend-describtion">
-            <ul class="trend-categories">
-              <li class="trend-category">
-                <a href="#" class="trend-link">Lifestyle</a>
-              </li>
-              <li class="trend-category">
-                <a href="#" class="trend-link">Interior</a>
-              </li>
-            </ul>
-            <h3 class="trend-info">
-              <a href="#" class="trend-title"> Сейчас в тренде: сад на подоконнике</a>
-            </h3>
-          </div>
+      <article class="trend trend-first">
+        <div class="trend-describtion">
+          <ul class="trend-categories">
+            <li class="trend-category">
+              <a href="#" class="trend-link">Lifestyle</a>
+            </li>
+            <li class="trend-category">
+              <a href="#" class="trend-link">Interior</a>
+            </li>
+          </ul>
+          <h3 class="trend-info">
+            <a href="#" class="trend-title"> Сейчас в тренде: сад на подоконнике</a>
+          </h3>
         </div>
       </article>
-      <article class="trends">
-        <div class="trend trend-second">
-          <div class="trend-describtion">
-            <ul class="trend-categories">
-              <li class="trend-category">
-                <a href="#" class="trend-link">Food</a>
-              </li>
-            </ul>
-            <h3 class="trend-info">
-              <a href="#" class="trend-title">Сыры на красивых картинках из интернета: какие они на вкус?</a>
-            </h3>
-          </div>
+      <article class="trend trend-second">
+        <div class="trend-describtion">
+          <ul class="trend-categories">
+            <li class="trend-category">
+              <a href="#" class="trend-link">Food</a>
+            </li>
+          </ul>
+          <h3 class="trend-info">
+            <a href="#" class="trend-title">Сыры на красивых картинках из интернета: какие они на вкус?</a>
+          </h3>
         </div>
       </article>
-      <article class="trends">
-        <div class="trend trend-third">
-          <div class="trend-describtion">
-            <ul class="trend-categories">
-              <li class="trend-category">
-                <a href="#" class="trend-link">Lifestyle</a>
-              </li>
-              <li class="trend-category">
-                <a href="#" class="trend-link">Travel</a>
-              </li>
-            </ul>
-            <h3 class="trend-info">
-              <a href="#" class="trend-title">Собираемся в первый поход в горы</a>
-            </h3>
-          </div>
+      <article class="trend trend-third">
+        <div class="trend-describtion">
+          <ul class="trend-categories">
+            <li class="trend-category">
+              <a href="#" class="trend-link">Lifestyle</a>
+            </li>
+            <li class="trend-category">
+              <a href="#" class="trend-link">Travel</a>
+            </li>
+          </ul>
+          <h3 class="trend-info">
+            <a href="#" class="trend-title">Собираемся в первый поход в горы</a>
+          </h3>
         </div>
       </article>
-      <article class="trends">
-        <div class="trend trend-fourth">
-          <div class="trend-describtion">
-            <ul class="trend-categories">
-              <li class="trend-categoty">
-                <a href="#" class="trend-link">Food</a>
-              </li>
-              <li class="trend-category">
-                <a href="#" class="trend-link">Health</a>
-              </li>
-            </ul>
-            <h3 class="trend-info">
-              <a href="#" class="trend-title">Сейчас в тренде: сколько витаминов в лимонах?</a>
-            </h3>
-          </div>
+      <article class="trend trend-fourth">
+        <div class="trend-describtion">
+          <ul class="trend-categories">
+            <li class="trend-category">
+              <a href="#" class="trend-link">Food</a>
+            </li>
+            <li class="trend-category">
+              <a href="#" class="trend-link">Health</a>
+            </li>
+          </ul>
+          <h3 class="trend-info">
+            <a href="#" class="trend-title">Сейчас в тренде: сколько витамина с в лимонах?</a>
+          </h3>
         </div>
-      </article>
+      </article> 
     </div>
   </section>
   <div class="page">
@@ -175,7 +166,7 @@
               <time class="last-post-date" datetime="2019-10-06">10 июня 2019</time>
               <address class="author">Неизвестный автор</address>
             </div>
-            <div class="post-descripbion">
+            <div class="post-describtion">
               <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в
                 шкафу.</p>
             </div>
@@ -273,7 +264,7 @@
         </article>
       </div>
     </main>
-    <aside class="side-bar">
+    <aside class="sidebar">
       <section class="latest-posts">
         <h2 class="latest-posts-title">Новые посты</h2>
         <article class="last-post">
@@ -348,7 +339,7 @@
         <h2 class="latest-posts-title">Рассылка</h2>
         <form class="subscribe-field">
           <label class="field-group">
-            <span class="field-label">Введите свой email, чтобы мы могли ответить</span>
+            <span class="field-label">Введите свой e-mail, чтобы мы могли ответить</span>
             <input class="field" type="email" placeholder="Ваш e-mail адрес" required>
           </label>
           <button class="button-subscribe">Подписаться
@@ -420,34 +411,28 @@
     <h2 class="shop-title">Наши изделия</h2>
     <div class="shop-container">
       <article class="product">
-        <div class="product-img">
           <picture class="shop-product">
-            <source media="(min-width: 1200px)" 
-                    srcset="images/shop-item-desk1.jpg">
-            <source media="(min-width: 641px) and (max-width: 1199px)" 
-                    srcset="images/shop-item-tablet1.jpg">
-            <source media="(max-width: 640px)" 
-                    srcset="images/shop-item-mobile1.jpg">
+            <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+            <source media="(min-width: 641px) and (max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+            <source media="(max-width: 640px)" srcset="images/shop-item-mobile1.jpg">
             <img src="images/shop-item-desk1.jpg">
           </picture>
-        </div>
-        <div class="product-info">
-          <h2 class="product-title">Подушки на диван</h2>
-          <p class="product-text">
+          <div class="product-info">
+            <h2 class="product-title">Подушки на диван</h2>
+            <p class="product-text">
             Набор из двух подушек с модными принтами. Видео о создании <a class="product-info-link" href="#">здесь.</a>
-          </p>
-          <div class="price-button">
-            <div class="price">
-              <p class="old-price">1000 ₽</p>
-              <p class="actual-price">800 ₽</p>
-            </div>
-            <div class="shop-btn">
-              <button type="submit" class="shop-button">
-                <span>В магазин</span>
-              </button>
+            </p>
+            <div class="price-button">
+              <div class="price">
+                <p class="old-price">1000 ₽</p>
+                <p class="actual-price">800 ₽</p>
+              </div>
+              <div class="shop-btn">
+                <button type="submit" class="shop-button">
+                  <span>В магазин</span>
+                </button>
             </div>
           </div>
-        </div>
       </article>
       <article class="product">
         <div class="product-img">
@@ -540,7 +525,7 @@
       <p class="copyright-description">Copyright © 2009–2019 City Blog LLC.</p>
     </div>
   </footer>
-  <div class="popup">
+  <!-- <div class="popup">
     <div class="btn-close">
       <button class="popup-close" type="button">
         <span class="visually-hidden">Кнопка закрытия всплывающего окна</span>
@@ -580,7 +565,45 @@
         </form>
       </div>
     </div>
+  </div> -->
+  <div class="popup">
+    <div class="popup-content">
+      <h2 class="popup-name">
+        <a class="title-popup-name">Ваш Фидбек</a>
+      </h2>
+      <form class="popup-form">
+        <label class="popup-column-first">
+          <span class="popup-visit">Как часто вы заходите на сайт?</span>
+          <select class="feedback-field choice">
+            <option>Почти каждый день</option>
+            <option>Раз в несколько дней</option>
+            <option>Раз в несколько недель</option>
+            <option>Несколько раз в год</option>
+          </select>
+        </label>
+        <div class="popup-column-second">
+          <span class="popup-second-title">Вы подписаны на e-mail рассылку?</span>
+          <label class="radio-group">
+            <input type="radio" class="radio" name="radio-group">
+            <span class="radio-group-text">Да</span>
+          </label>
+          <label class="radio-group">
+            <input type="radio" class="radio" name="radio-group">
+            <span class="radio-group-text">Нет</span>
+          </label>
+        </div>
+        <div class="popup-column-third">
+          <label class="popup-offer" for="offers">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+          <textarea id ="offers" class="popup-visit-offers" placeholder="Может, больше рецептов?"></textarea>
+        </div>
+        <div class="popup-button-one">
+          <button class="popup-button">
+            <span class="popup-button-label">Отправить</span>
+          </button>
+        </div>
+      </form>
+      <button class="popup-close" type="button">Закрыть окно</button>
+    </div>
   </div>
 </body>
-
 </html>
