@@ -262,7 +262,6 @@ a {
 
 .post {
     display: flex;
-    /* box-sizing: border-box; */
     justify-content: space-between;
 }
 
@@ -380,10 +379,8 @@ a {
 }
 
 .last-post {
-    width: 270px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    box-sizing: border-box;
 }
   
 .last-post:nth-child(n + 2) {
@@ -1144,15 +1141,6 @@ a {
     .post {
         flex-direction: column;
         width: 100%;
-    }
-
-    .post:nth-child(-n + 4)::after {
-        content: "";
-        display: block;
-        border-bottom: 3px solid #eee;
-        width: 330px;
-        margin: auto;
-        padding-top: 20px;
     }
 
     .post-img {
