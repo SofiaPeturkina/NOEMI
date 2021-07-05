@@ -27,6 +27,7 @@
 body {
     font-family: "Open Sans";
 }
+
 a {
     text-decoration: none;
 }
@@ -38,7 +39,10 @@ a {
     background-position: center center;
     background-size: cover;
     background-color: #666;
-
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 220px;
     position: relative;
     z-index: 0;
 }
@@ -59,9 +63,8 @@ a {
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 25px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
 
     display: flex;
     justify-content: space-between;
@@ -70,12 +73,8 @@ a {
 
 .header-logo {
     width: 180px;
-    display: block;
     margin-left: 30px;
-}
-
-.menu-button {
-    display: none;
+    display: block;
 }
   
 .menu {
@@ -103,6 +102,10 @@ a {
     padding-left: 35px;
 }
 
+.menu-button {
+    display: none;
+}
+
 .container {
     width: 100%;
     max-width: 700px;
@@ -118,13 +121,9 @@ a {
     color: #fff;
     line-height: 1.5;
 }
-
-.section-trends {
-    width: 100%;
-    margin-top: 60px;
-}
-  
+ 
 .trends-title {
+    margin-top: 60px;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -151,8 +150,6 @@ a {
 .trends-container {
     margin-top: 30px;
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: space-between; */
 }
 
 .trend {
@@ -205,10 +202,10 @@ a {
 }
 
 .trend-describtion {
+    width: 100%;
     border: 2px solid #b59f5b;
     position: relative;
     box-sizing: border-box;
-    /* margin: 120px 15px 15px; */
     padding: 40px 35px;
     z-index: 2;
 }
@@ -250,28 +247,31 @@ a {
 
 .page {
     max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
     margin-right: auto;
     margin-left: auto;
     margin-top: 64px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: flex;
+}
+
+.posts-list {
+    flex: 1;
+    margin-right: 7.5rem;
 }
 
 .post {
     display: flex;
+    /* box-sizing: border-box; */
     justify-content: space-between;
 }
 
-.post:nth-child(n+2) {
+.post:nth-child(n + 2) {
     margin-top: 60px;
 }
 
-.post-preview {
-    margin-right: 25px;
-}
-
 .post-info {
-    width: 367px;
+    margin-left: 30px;    
 }
 
 .categories {
@@ -556,10 +556,10 @@ a {
     color: #b59f5b;
 }
 
-.shop {
+/* .shop {
     max-width: 1122px;
     margin: auto;
-}
+} */
 
 .shop-title {
     font-size: 20px;
@@ -567,6 +567,7 @@ a {
     text-align: center;
     margin-top: 64px;
     margin-bottom: 40px;
+    position: relative;
 }
 
 .shop-title::after {
@@ -579,22 +580,33 @@ a {
 }
 
 .shop-container {
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 } 
 
 .product {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+}
+
+.shop-product {
     display: flex;
-    flex-direction: column;
-    width: 27%;
+    justify-content: center;
 }
 
 .product-info {
     outline: 3px solid #d5c9a3;
-    outline-offset: 20px;
-    padding-top: 25px;
+    outline-offset: 2rem;
+    /* padding-top: 25px; */
     flex-grow: 1;
+    align-items: flex-end;
+    height: 250px;
 }
 
 .product-title {
@@ -671,7 +683,7 @@ a {
 .icons-container {
     padding-top: 30px;
     padding-bottom: 30px;
-    /* background-color: #f4f7f6; */
+    background-color: #f4f7f6;
 }
   
 .icons-list {
@@ -689,7 +701,7 @@ a {
 }
   
 .social-icon_twitter {
-    background-image: url(/svg/004-twitter.svg);
+    background-image: url(../svg/004-twitter.svg);
     background-repeat: no-repeat;
 }
   
@@ -698,22 +710,22 @@ a {
 }
   
 .social-icon_pinterest {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url(../svg/001-pinterest.svg);
     background-repeat: no-repeat;
 }
   
 .social-icon_facebook {
-    background-image: url(/svg/002-facebook-logo.svg);
+    background-image: url(../svg/002-facebook-logo.svg);
     background-repeat: no-repeat;
 }
   
 .social-icon_instagram {
-    background-image: url(/svg/005-instagram.svg);
+    background-image: url(../svg/005-instagram.svg);
     background-repeat: no-repeat;
 }
   
 .social-icon_tmbl {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
     background-repeat: no-repeat;
 }
   
