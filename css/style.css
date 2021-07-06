@@ -920,6 +920,10 @@ a {
     height: 0.2em;
 }
 
+.popup {
+    display: none;
+}
+
 @media (min-width: 641px) and (max-width: 1199px) {
     html {
         font-size: 85%;
